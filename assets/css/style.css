@@ -1,0 +1,13 @@
+body{
+	background-color: #f3f3f3;
+	margin: 0;
+}
+#search-screen:before{
+	content: "Search";
+}
+#results-screen:before{
+	content: "Results";
+}
+#saved-screen:before{
+	content: "Saved Articles";
+}
