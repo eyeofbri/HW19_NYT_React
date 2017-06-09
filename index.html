@@ -17,7 +17,7 @@
 	</header>
 
 	<section id="search-screen">
-		<form>
+		<form id="search-form">
 			<span></span>
 			<input type="text" name="topic">
 			<span></span>
@@ -25,8 +25,8 @@
 			<span></span>
 			<input type="text" name="endYear">
 
-			<input type="search" value="Search">
 		</form>
+		<button type="submit" form="search-form" value="Search">Submit</button>
 	</section>
 
 	<section id="results-screen">
@@ -38,9 +38,11 @@
 
 	<section id="saved-screen">
 		<article>
-			<p>Saved Article Title</p>
-			<div>date saved mm/dd/yyyy</div>
-			<button>remove</button>
+			<div>
+				<p>Saved Article Title</p>
+				<p>date saved mm/dd/yyyy</p>
+				<button>remove</button>
+			</div>
 			<div>Snippet of the article</div>
 		</article>
 	</section>
